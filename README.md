@@ -3,10 +3,11 @@
 A Three Dimensional Maze solver.
 
 Instructions: 
-1. Create a .txt file that has equal length and width dimensions with x number of levels with '.' as open paths and '#' as walls.
-2. The initial starting position should be labeled 'B' as Bot. The end point should be labeled 'E'.
-3. When initializing a Maze Object, use the initWithMaze:update:seconds:bots:algorithm method 
+- Create a .txt file that has equal length and width dimensions with x number of levels with '.' as open paths and '#' as walls.
+- The initial starting position should be labeled 'B' as Bot. The end point should be labeled 'E'.
+- When initializing a Maze Object, use the initWithMaze:update:seconds:bots:algorithm method 
  
+initWithMaze:update:seconds:bots:algorithm
  - Initializes a Maze to be solved
  - @param maze NSString: The name/path of the file that contains the maze
  - @param update BOOL: When flagged true, updates the UI with the steps taken by the computer
