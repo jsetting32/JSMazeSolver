@@ -3,7 +3,7 @@
 A Three Dimensional Maze solver.
 
 Instructions: 
-- Create a .txt file that has equal length and width dimensions with x number of levels with '.' as open paths and '#' as walls.
+- Create a .txt file that with x number of levels with '.' as open paths and '#' as walls. (for an example, view Maze3D.txt or Maze2D.txt)
 - The initial starting position should be labeled 'B' as Bot. The end point should be labeled 'E'.
 - When initializing a Maze Object, use the initWithMaze:update:seconds:bots:algorithm method 
  
