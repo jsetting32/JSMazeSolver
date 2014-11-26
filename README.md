@@ -15,4 +15,5 @@ initWithMaze:update:seconds:bots:algorithm
  - @param bots NSInteger: Number of bots entering the maze.
  - @param algorithm NSInteger: 0 = backtracking, 1 = depth-first search, 2 = breadth-first search
  
+
  *** Currently, the maze solver doesn't allow for more than one bot. ***
